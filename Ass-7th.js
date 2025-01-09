@@ -1,4 +1,4 @@
-// Find the maximum number among the following
+//^ Find the maximum number among the following
 //  a=120
 //  b=30
 //  c=50
@@ -18,7 +18,7 @@ if (a > b && a > c) {
   console.log("a , b , c are equal");
 }
 
-//SWITCH
+//^SWITCH
 
 // let a = 120;
 // let b = 30;
