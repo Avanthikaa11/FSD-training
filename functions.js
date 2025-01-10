@@ -43,17 +43,63 @@
 //! explicit return
 
 // function add(a,b){
-//   return a+b;
-// }
+//   return a+b; }
 // let x=add(5,5);
 // console.log(x);
 
 //! implicit return
 
-let x = (a, b) => a + b;
-console.log(x(5, 5));
+// let x = (a, b) => a + b;
+// console.log(x(5, 5));
 
-let y = (a, b) => {
-  return a + b;
-};
-console.log(y(10, 5));
+// let y = (a, b) => {
+//   return a + b;
+// };
+// console.log(y(10, 5));
+
+//^Higher Order function
+
+// function hof(a) {
+//   return a;
+// }
+// let x = hof(10);
+// console.log(x);
+
+//^hof and callback function
+
+// function cbf(a) {
+//   return a();
+// }
+// let x = cbf(function () {
+//   return "this is call back function";
+// });
+// console.log(x);
+
+//^hof and callback function ex-2
+
+// function add(callback) {
+//   return callback(5, 3);
+// }
+// let x = add(function (a, b) {
+//   return a + b;
+// });
+// console.log(x);
+
+//^hof and callback function ex-2
+// let users = ["a", "b", "c", "d"];
+// users.map((user) => {
+//   console.log(user); //? accessing user name in array map function
+// });
+
+var a = 10;
+let b = 30;
+function x() {
+  var user = "Shravan";
+  let company = "Amazon";
+  const sal = 8899989;
+  console.log(user);
+  console.log(company);
+  console.log(sal);
+  console.log(a, b);
+}
+x();

@@ -125,15 +125,47 @@ logical operators:-
 - for loop & while loops are entry controlled loops.
 - do-while is a exit controlled loop.
 
+4.for each 
+  - can iterate values but cannot return values.
+
 functions:-
 ***********
-- function is a block of code used to perform specif task.
-- functions ca be reuse foe n number of times.
+- function is a block of code used to perform specific task.
+- functions can be reuse for n number of times.
+- functions are non-primitive data types.
 
 syntax :- function function_name(optional parameters) // function declatration
                 {
                       //statements  
                 }
-                function_name(arguments);//function calling
+                function_name(arguments);//function calling/invoking
 
 note :- without calling the function the function body will never execute.
+
+types of functions:-
+********************
+1.named function :- function which is having a name to decalre and to invoke(calling).
+2.anonymus function:-function which doesnot have a name for declare.
+- anonymus function cannot be executed independently.
+3.function expression:- function decalration is assigned as a value to variable 
+        and the same function will be invoked with the help of variable.
+4.immediate invoke function expression(IIFE):- once the function is created immedialtely it should be invoked.
+        - iife can be executed for only one time.
+5.Arrow function:- to concise the syntax of normal function.
+synatx :-  ()=>{};
+- it is also similar to anonymus function.
+6.higher order function
+7.callback function
+
+-closure
+
+Note:- current version of javascript - es14.
+es - ECMA script 
+ECMA - european computer manufacturing association
+
+return statement:-
+- it will return either expression or variables to future use.
+
+implicit return :- returns without using a "return" keyword manually.
+
+explicit return :- returns using "return" keyword manually

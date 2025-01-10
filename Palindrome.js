@@ -1,16 +1,16 @@
 //^ Palindrome Number
 
-function isPalindrome(num) {
-  let originalnum = num;
-  let sum = 0;
-  while (num > 0) {
-    let r = num % 10;
-    sum = sum * 10 + r;
-    num = Math.floor(num / 10);
-  }
-  return (num = sum);
-}
-console.log(isPalindrome(123));
+// function isPalindrome(num) {
+//   let originalnum = num;
+//   let sum = 0;
+//   while (num > 0) {
+//     let r = num % 10;
+//     sum = sum * 10 + r;
+//     num = Math.floor(num / 10);
+//   }
+//   return (num = sum);
+// }
+// console.log(isPalindrome(123));
 
 //^ PAlindrome Example-2
 
