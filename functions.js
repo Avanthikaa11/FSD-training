@@ -91,15 +91,37 @@
 //   console.log(user); //? accessing user name in array map function
 // });
 
-var a = 10;
-let b = 30;
+// var a = 10;
+// let b = 30;
+// function x() {
+//   var user = "Shravan";
+//   let company = "Amazon";
+//   const sal = 8899989;
+//   console.log(user);
+//   console.log(company);
+//   console.log(sal);
+//   console.log(a, b);
+// }
+// x();
+
+//^closure
+
 function x() {
-  var user = "Shravan";
-  let company = "Amazon";
-  const sal = 8899989;
-  console.log(user);
-  console.log(company);
-  console.log(sal);
+  var a = 10;
+  let b = 20;
   console.log(a, b);
+  function y() {
+    let p = "JS";
+    let q = "React";
+    console.log(p, q);
+    function z() {
+      const username = "Avi";
+      console.log(username);
+      console.log(a);
+      console.log(b);
+    }
+    z();
+  }
+  y();
 }
 x();

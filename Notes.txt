@@ -154,10 +154,16 @@ types of functions:-
 5.Arrow function:- to concise the syntax of normal function.
 synatx :-  ()=>{};
 - it is also similar to anonymus function.
-6.higher order function
-7.callback function
+6.higher order function:-
+- higher order function is a function which accepts another function as a 
+value/argument to its parameter.
 
--closure
+7.callback function:-
+- callback function is a function which is passed as a value/argumnets to 
+another function.
+
+-closure :- closure is a memory created when functions bundled together/functions nested each other
+        by giving accessibility to the innermost function to access the variables of outermost function.
 
 Note:- current version of javascript - es14.
 es - ECMA script 
