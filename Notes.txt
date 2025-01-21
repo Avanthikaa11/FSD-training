@@ -228,3 +228,31 @@ ex:- {
 }
 
 extension for json file is ".json"
+
+methods of json:-
+1.JSON.stringify() :- it will convert javascript object into json object
+2.JSON.parse() :- it will convert json object into javascript object
+
+
+web storages:-
+**************
+- It can store the data inside the browser.
+- upto 10MB of data can be stored.
+
+1.local storage :- it is a permanent data storage.
+                 - it can store upto 10MB.
+                 methods :-
+                1.localStorage.setItem("key" , "value")
+                2.localStorage.getItem("key")
+                3.localStorage.removeItem("key")
+                4.localStorage.clear()
+2.session storage:- it is a temporary data storage.
+                  -it can store upto 5MB of data.
+                  methods :-
+                1.sessionStorage.setItem("key" , "value")
+                2.sessionStorage.getItem("key")
+                3.sessionStorage.removeItem("key")
+                4.sessionStorage.clear()
+
+
+Note:-*** - Javascript is a  Synchronous (Single threaded language)
