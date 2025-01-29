@@ -7,11 +7,10 @@
     <title>SignUp Page</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="signup.css">
-
 </head>
 
 <body>
-    <div class=" signup">
+    <div class="signup">
         <h1>SignUp Page</h1>
         <form>
             <div class="formmain">
@@ -21,12 +20,23 @@
             </div>
             <div class="formmain">
                 <label>Name:
-                    <input type="text" id="name" name="id" placeholder="Enter your Name">
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                </label>
+            </div>
+            <div class="null">
+                <label>Gender:
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
                 </label>
             </div>
             <div class="formmain">
                 <label>Password:
                     <input type="password" id="password" name="password" placeholder="Enter your Password">
+                </label>
+                <label>
+                    <input type="checkbox" id="showPassword" name="showPassword">
+                    <span id="show">Show Password</span>
                 </label>
             </div>
             <div class="formmain">
@@ -35,20 +45,20 @@
                         placeholder="Confirm your Password">
                 </label>
             </div>
+            <input type="submit" value="submit">
         </form>
         <div class="iconsdiv">
             <p>Or sign up using</p>
             <div class="icons">
-                <a href="https://www.facebook.com/login/ class=" facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/login/" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://mail.google.com/" class="google"><i class="fab fa-google"></i></a>
                 <a href="https://x.com/i/flow/login" class="twitter"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
-        <div class="submit">
-            <button type="submit" class="button">Submit</button>
-        </div>
+
 
     </div>
+    <script src="signup.js"></script>
 </body>
 
 </html>

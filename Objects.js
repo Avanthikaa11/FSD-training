@@ -25,30 +25,31 @@
 
 //^ Arrays of Objects
 
-let user = [
-  {
-    name: "John Doe",
-    age: 30,
-    city: "Hyderabad",
-  },
-  {
-    name: "Jane Doe",
-    age: 28,
-    city: "Bangalore",
-  },
-  {
-    name: "Rahul",
-    age: 35,
-    city: "Chennai",
-  },
-  {
-    name: "Suresh",
-    age: 32,
-    city: "Delhi",
-  },
-];
+// let user = [
+//   {
+//     name: "John Doe",
+//     age: 30,
+//     city: "Hyderabad",
+//   },
+//   {
+//     name: "Jane Doe",
+//     age: 28,
+//     city: "Bangalore",
+//   },
+//   {
+//     name: "Rahul",
+//     age: 35,
+//     city: "Chennai",
+//   },
+//   {
+//     name: "Suresh",
+//     age: 32,
+//     city: "Delhi",
+//   },
+// ];
 
-// console.log(user);
-user.map((user) => {
-  console.log(user.name);
-});
+// // console.log(user);
+// user.map((user) => {
+//   console.log(user.name);
+// });
+

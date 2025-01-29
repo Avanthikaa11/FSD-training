@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+#navBlock {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./bgimg.png");
+}
+#navBlock > article {
+  width: 90%;
+  height: inherit;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.topnavBlock {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+.logo > span {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(66, 7, 7);
+}
+.bottomnavBlock {
+  flex-basis: 80%;
+  display: flex;
+
+  /* background-color: violet; */
+}
+
+.menuLinks {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.menuLinks > ul {
+  display: flex;
+  list-style-type: none;
+}
+.menuLinks > p {
+  margin-bottom: 8px;
+}
+.menuLinks > ul > li > a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(66, 7, 7);
+}
+
+.contentBlock {
+  flex-basis: 50%;
+  font-family: "Anton", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentBlock > p {
+  text-transform: uppercase;
+  width: 310px;
+  padding: 8px;
+  font-weight: 100;
+  font-family: 14px;
+  margin-bottom: 8px;
+  border: 2.5px dashed #fff;
+}
+.contentBlock > h1 {
+  font-size: 105px;
+  text-transform: uppercase;
+  font-family: "Anton", serif;
+  letter-spacing: 1.5px;
+  text-shadow: 5px 5px 4px #fff;
+}
+
+.contentBlock > h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Anton", serif;
+  letter-spacing: 1.5px;
+  text-shadow: 5px 5px 4px #fff;
+}
+
+.imageBlock {
+  flex-basis: 50%;
+  position: relative;
+}
+.imageBlock > img:first-child {
+  position: absolute;
+  bottom: -120px;
+  left: 50px;
+  size: 500;
+  z-index: 10;
+}
+.imageBlock > img:nth-child(2) {
+  position: absolute;
+}
+.imageBlock > img:nth-child(3) {
+  position: absolute;
+  width: 300px;
+  transform: rotate(-40dg);
+  bottom: 35px;
+}
+.imageBlock > span:last-child {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  display: inline-block;
+  display: flex;
+  width: 150ps;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: red;
+  font-size: 18px;
+  border: 2px dashed #fff;
+  outline: 10px solid;
+}

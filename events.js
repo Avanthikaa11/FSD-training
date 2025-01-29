@@ -25,10 +25,34 @@
 
 //^ KeyDown
 
-let input = document.getElementById("btn");
-input.addEventListener("keydown", (e) => {
-  console.log("keydown");
+// let input = document.getElementById("btn");
+// input.addEventListener("keydown", (e) => {
+//   console.log("keydown");
+// });
+// input.addEventListener("keyup", (e) => {
+//   console.log("keyup");
+// });
+
+let pink = document.getElementById("pink");
+pink.addEventListener("mouseover", () => {
+  document.body.style.backgroundColor = "#FF6961";
 });
-input.addEventListener("keyup", (e) => {
-  console.log("keyup");
+let yellow = document.getElementById("yellow");
+yellow.addEventListener("mouseover", () => {
+  document.body.style.backgroundColor = "#FDFD96";
+});
+
+let blue = document.getElementById("blue");
+blue.addEventListener("mouseover", () => {
+  document.body.style.backgroundColor = "#AEC6CF";
+});
+
+let green = document.getElementById("green");
+green.addEventListener("mouseover", () => {
+  document.body.style.backgroundColor = "#77DD77";
+});
+
+let peach = document.getElementById("peach");
+peach.addEventListener("mouseover", () => {
+  document.body.style.backgroundColor = "#FFDAB9";
 });
